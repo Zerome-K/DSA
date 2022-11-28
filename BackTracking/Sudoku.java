@@ -61,8 +61,7 @@ public class Sudoku {
     }
 
     private void display(int[][] board) {
-        for (int[] arr :
-                board) {
+        for (int[] arr : board) {
             System.out.println(Arrays.toString(arr));
         }
     }
